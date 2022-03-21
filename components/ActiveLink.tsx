@@ -1,8 +1,8 @@
 import { useRouter } from "next/router"
 import Link from "next/link"
-import { FC } from "react";
+import { CSSProperties, FC } from "react";
 
-const style = { 
+const style:CSSProperties = { 
     color:'#0070f3',
     textDecoration:'underline'
 }
